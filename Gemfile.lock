@@ -2,8 +2,8 @@ PATH
   remote: .
   specs:
     ms-docx (0.1.0)
-      nokogiri (>= 1.8.1)
-      rubyzip (>= 1.0.0)
+      nokogiri (~> 1.8)
+      rubyzip (~> 1.0)
 
 GEM
   remote: https://rubygems.org/
@@ -37,7 +37,7 @@ DEPENDENCIES
   ms-docx!
   rake (~> 10.0)
   rspec (~> 3.0)
-  yard (>= 0.9.10)
+  yard (~> 0.9)
 
 BUNDLED WITH
    1.16.0

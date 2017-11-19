@@ -1,4 +1,4 @@
-# MsDocx
+# MsDocx [![Gem Version](https://badge.fury.io/rb/ms-docx.svg)](https://badge.fury.io/rb/ms-docx)
 
 TODO: Delete this and the text above, and describe your gem
 
