@@ -20,6 +20,21 @@ Or install it yourself as:
 
 ## Usage
 
+```ruby
+file_path = 'some_dir/'
+
+# Read my_file.docx
+doc = MsDocx::Document.open(file_path + 'my_file.docx')  
+
+doc.each_paragraph do |par|
+  # Change all paragraphs text to 'Test'
+  par.text = 'Test'
+end
+
+# Save edited file
+doc.save_file(file_path + 'new.docx')
+```
+
 TODO: Write usage instructions here
 
 ## Development
