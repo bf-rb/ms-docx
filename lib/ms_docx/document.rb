@@ -1,6 +1,11 @@
 module MsDocx
   # @author Alex Mercury
-  # {include:file:doc_examples/test.rb}
+  # @example
+  #   doc = MsDocx::Document.open('1.docx')
+  #
+  #   puts doc.paragraphs.first.text
+  #   # => 'some text'
+  #
   class Document
 
     CONTENT_ENTRY = 'word/document.xml'
